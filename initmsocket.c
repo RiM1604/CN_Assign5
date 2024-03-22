@@ -76,7 +76,8 @@ int main()
     int shmid;
     SOCK_INFO *sockinfo;
     sharedMem *SM;
-
+    //making changes done by User1
+    
     shmid = shmget(KEY, sizeof(SOCK_INFO), IPC_CREAT | 0666);
     if (shmid == -1)
     {
