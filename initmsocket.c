@@ -19,7 +19,7 @@
 #define RECEIVE_WND 5
 #define MAX_RECEIVE_BUFF 5*1024
 #define MAX_SEND_BUFF 10*1024
-
+//changes to branch ritesh
 typedef struct SOCK_INFO
 {
     int sock_id;
